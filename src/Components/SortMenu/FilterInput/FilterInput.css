@@ -1,0 +1,10 @@
+.filter_input {
+  text-align: start;
+}
+
+.filter_input input {
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 110%;
+  border: 1px solid black;
+}

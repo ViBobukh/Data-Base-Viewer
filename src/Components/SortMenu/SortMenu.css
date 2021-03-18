@@ -1,0 +1,46 @@
+.sort_menu {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  margin-bottom: 2%;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+.sort_menu * {
+  margin-left: 2%;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .sort_menu {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-top: 2%;
+  }
+
+  .sort_menu * {
+    margin-left: 2%;
+    margin-bottom: 2%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .sort_menu {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-top: 2%;
+  }
+
+  .sort_menu * {
+    margin-left: 2%;
+    margin-bottom: 2%;
+  }
+}

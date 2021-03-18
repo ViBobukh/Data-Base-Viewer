@@ -1,0 +1,15 @@
+.cart_holder_table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.cart_holder_table-customer {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    animation: fade 0.5s linear;
+    animation-fill-mode: both;
+}

@@ -1,0 +1,27 @@
+.sorting-type {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.sorting-type .btn button {
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.sorting-subtype {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.sorting-subtype .btn button {
+    width: 100%;
+}
+
+.isActive {
+    background: dodgerblue;
+}

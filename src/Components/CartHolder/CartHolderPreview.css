@@ -1,0 +1,33 @@
+.cart_holder_preview-customer {
+  width: 49.89%;
+  border: 0.1px solid black;
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  text-align: start;
+  animation: fade 0.5s normal;
+  animation-fill-mode: both;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.cart_holder_preview-header {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
